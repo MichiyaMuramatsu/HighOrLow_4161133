@@ -41,7 +41,7 @@ public class HighOrLow {
 				System.out.println("数字を選択してください。");
 			}
 			if(highlow == 0){
-				System.out.println("あなたはhighを選択しました。");
+				System.out.println("\nあなたはhighを選択しました。");
 				if(setNumber > save){
 					System.out.println("選ばれた数字は" + setNumber + "でした。");
 					System.out.println("当たりです!!");
@@ -65,6 +65,7 @@ public class HighOrLow {
 					winCount++;
 				}
 			}
+			System.out.println("");
 		}
 		System.out.println("あなたは" + winCount + "回当てることができました。");
 		sc.close();
